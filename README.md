@@ -1,0 +1,1 @@
+The goal of this project is to deconstruct the google main page and rebuild it. This will focus on how elements get placed on the page and roughly how they are styled and aligned.
