@@ -14,6 +14,25 @@
     text-align: center;
     margin: auto;
     outline: none;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.searchbarmain {
+    background: #fff;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    height: 44px;
+    margin-bottom: 10px;
+    display: block;
+    width: 584px;
+    max-width: 584px;
+    flex: 100%;
+    flex-wrap: wrap;
+    margin: auto;
+    
+   
+
 }
 .logo {
     margin: auto;
@@ -24,16 +43,38 @@
     text-align: right;
 }
 .lileft {
-    display: inline;
+    display: inline-block;
+    font-family: arial;
+    font-size: 14px;
+    padding: 5px;
 }
+
 .liright {
     display: inline;
     float: right;
     margin-right: 10px;
+    font-family: arial;
+    font-size: 14px;
+}
+.libottomleft{
+    display: inline-block;
+    font-family: arial;
+    font-size: 14px;
+    padding: 5px;
+}
+.libottomcenter{
+    display: inline-block;
+}
+.libottomright{
+    display: inline;
+    float: right;
+    margin-right: 10px;
+    font-family: arial;
+    font-size: 14px;
 }
 .button1 {
     text-align: center;
-    background-color: rgb(18, 90, 184);
+    background-color: rgb(26, 115, 232);
     color: white;
     cursor: pointer;
     border-color: transparent;
@@ -44,9 +85,28 @@
     letter-spacing: .25px;
     line-height: 16px;
     min-width: 96px;
+    margin-right: 8px;
+    margin-left: 9px;
     vertical-align: middle;
     border-radius: 4px;
     box-sizing: border-box;
+}
+.button2{
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none; 
+
 }
 a:hover {
     text-decoration: underline;
